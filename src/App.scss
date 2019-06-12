@@ -1,0 +1,9 @@
+.App {
+  @media (min-width: 1000px) {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  background-color: #F1F1F1;
+  //outline: 1px solid #707070;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.16);
+}
