@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="109f22a4-50f3-4522-847a-a1b7acf828ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppGridContainer/AppGridContainer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppGrid/AppGrid.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppGridContainer/AppGridContainer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppGrid/AppGrid.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppGridContainer/AppGridContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppGrid/AppGrid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppJumbotron/AppJumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppJumbotron/AppJumbotron.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppJumbotron/AppJumbotron.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppJumbotron/AppJumbotron.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +18,38 @@
     <favorites_list name="kenny_kendall_wedding" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.tsx" />
         <option value="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.tsx" />
         <option value="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss" />
       </list>
     </option>
   </component>
@@ -139,6 +154,27 @@
               <item name="kenny_kendall_wedding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="AppMediaContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenny_kendall_wedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenny_kendall_wedding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="AppMediaPreview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenny_kendall_wedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenny_kendall_wedding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="PortraitPreview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenny_kendall_wedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenny_kendall_wedding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="PortraitsContainer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -167,12 +203,12 @@
     <property name="ts.external.directory.path" value="C:\Users\user\Workspace\kenny_kendall_wedding\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Workspace\kenny_kendall_wedding\src\assets\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Workspace\kenny_kendall_wedding\" />
       <recent name="C:\Users\user\Workspace\kenny_kendall_wedding\src\components\AppFooter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Workspace\kenny_kendall_wedding\src\assets\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,8 +247,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Jest.All Tests" />
+      <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.npm start" />
     </list>
   </component>
@@ -264,7 +300,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67809000" />
+    <option name="totallyTimeSpent" value="67894000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -277,6 +313,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.14699684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -302,6 +339,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="checkpoint" />
@@ -396,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppGrid/AppGrid.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -442,22 +482,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/something.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/Item.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/asdf.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/something.http" />
+    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/Item.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/asdf.test.tsx" />
     <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -478,11 +505,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="331.5" y="313.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="332.0" y="313.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -568,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppFooter/AppFooter.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -626,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -652,11 +666,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="528">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>

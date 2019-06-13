@@ -1,5 +1,5 @@
 .container {
-  padding: 20px;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
 }
