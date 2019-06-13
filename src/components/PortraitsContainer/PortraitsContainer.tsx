@@ -5,13 +5,13 @@ import React from 'react';
 import PortraitPreview from "../PortraitPreview/PortraitPreview";
 
 // Styles
-import './PortraitsContainer.scss';
+import styles from './PortraitsContainer.module.scss';
 
 
 export default class PortraitsContainer extends React.Component {
   render() {
     return (
-      <div className={'portraitsContainer'}>
+      <div className={styles.container}>
         <PortraitPreview/>
         <PortraitPreview/>
       </div>

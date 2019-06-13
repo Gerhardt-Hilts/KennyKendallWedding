@@ -1,6 +1,6 @@
 import React from 'react';
 import AppMediaPreview from '../AppMediaPreview/AppMediaPreview';
-import './AppMediaContainer.scss';
+import styles from './AppMediaContainer.module.scss';
 
 interface Props {
 
@@ -23,12 +23,12 @@ export default class AppMediaContainer extends React.Component<Props, State> {
 
   render() {
     return (
-      <div className={'layout'}>
+      <div className={styles.layout}>
         <AppMediaPreview/>
         <div>
-          <div className={'text_group'}>
-            <div className={'main_text'}>1943-10-28</div>
-            <div className={'hint_text'}>Date Uploaded</div>
+          <div className={styles.textGroup}>
+            <div className={styles.mainText}>1943-10-28</div>
+            <div className={styles.hintText}>Date Uploaded</div>
           </div>
           <div>
 

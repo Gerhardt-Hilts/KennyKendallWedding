@@ -1,6 +1,6 @@
 import React from 'react';
 import DefaultImage from '../../assets/img/DefaultImage.jpg';
-import './AppMediaPreview.scss';
+import styles from './AppMediaPreview.module.scss';
 
 interface Props {
   alt_text?: string,
@@ -38,7 +38,7 @@ export default class AppMediaPreview extends React.Component<Props, State> {
 
   render() {
     return (
-        <img src={this.state.image_src} alt={this.state.alt_text} className={'image'}/>
+        <img src={this.state.image_src} alt={this.state.alt_text} className={styles.image}/>
     );
   }
 }

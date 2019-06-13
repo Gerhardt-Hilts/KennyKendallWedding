@@ -4,7 +4,7 @@ import React from 'react';
 // Components
 import AppFooter from './components/AppFooter/AppFooter';
 import AppMediaContainer from './components/AppMediaContainer/AppMediaContainer';
-import AppGridContainer from './components/AppGridContainer/AppGridContainer';
+import AppGrid from './components/AppGrid/AppGrid';
 import AppHeader from './components/AppHeader/AppHeader';
 import PortraitsContainer from "./components/PortraitsContainer/PortraitsContainer";
 
@@ -18,14 +18,14 @@ const App: React.FC = () => {
     <div className="App">
       <AppHeader/>
       <PortraitsContainer/>
-      <AppGridContainer>
+      <AppGrid>
         <AppMediaContainer/>
         <AppMediaContainer/>
         <AppMediaContainer/>
         <AppMediaContainer/>
         <AppMediaContainer/>
         <AppMediaContainer/>
-      </AppGridContainer>
+      </AppGrid>
       <AppFooter/>
     </div>
   );
