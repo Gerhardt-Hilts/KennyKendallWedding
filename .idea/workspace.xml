@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109f22a4-50f3-4522-847a-a1b7acf828ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AppGoToTop/AppGoToTop.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppGoToTop/AppGoToTop.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppGrid/AppGrid.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppGrid/AppGrid.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppJumbotron/AppJumbotron.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppJumbotron/AppJumbotron.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppGoToTop/AppGoToTop.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppJumbotron/AppJumbotron.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppMediaContainer/AppMediaContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppMediaPreview/AppMediaPreview.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitPreview/PortraitPreview.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortraitsContainer/PortraitsContainer.tsx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,8 +52,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+                <state relative-caret-position="272">
+                  <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -120,8 +98,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+                <state relative-caret-position="310">
+                  <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -395,7 +373,7 @@
       <workItem from="1558601343755" duration="16808000" />
       <workItem from="1560173294953" duration="39440000" />
       <workItem from="1560372871593" duration="11561000" />
-      <workItem from="1560544651576" duration="9440000" />
+      <workItem from="1560544651576" duration="10592000" />
     </task>
     <task id="LOCAL-00001" summary="checkpoint">
       <created>1560382324585</created>
@@ -411,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560388454519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="moving to sass variables">
+      <created>1560554177953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560554177953</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed extra container, updated text gap">
+      <created>1560554916158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560554916158</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -438,7 +430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78148000" />
+    <option name="totallyTimeSpent" value="79300000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -491,7 +483,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="checkpoint" />
     <MESSAGE value="changed portraits container from flexbox to css grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed portraits container from flexbox to css grid" />
+    <MESSAGE value="moving to sass variables" />
+    <MESSAGE value="removed extra container, updated text gap" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed extra container, updated text gap" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
@@ -835,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -845,8 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="310">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
