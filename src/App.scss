@@ -1,3 +1,6 @@
+// Variables
+@import './_variables.scss';
+
 .App {
   @media (min-width: 1000px) {
     width: 1000px;
@@ -6,4 +9,16 @@
   background-color: #F1F1F1;
   //outline: 1px solid #707070;
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.16);
+}
+
+.container {
+  @media (max-width: 699px) {
+    padding: 0 $mobileMargins;
+  }
+  @media (min-width: 700px) and (max-width: 999px) {
+    padding: 0 $midMargins;
+  }
+  @media (min-width: 1000px) {
+    padding: 0 $fullMargins;
+  }
 }

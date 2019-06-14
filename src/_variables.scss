@@ -1,0 +1,30 @@
+/*
+ * Project Variables File
+ * ----------------------
+ * Sizes:
+ *  full: width >= 1000px
+ *  mid: width >= 700px
+ *  mobile: width < 700px
+**/
+
+/*
+ *  Layout
+**/
+/*
+
+@media (max-width: 699px) {
+
+}
+@media (min-width: 700px) and (max-width: 999px) {
+
+}
+@media (min-width: 1000px) {
+
+}
+
+*/
+
+/* Margins */
+$mobileMargins: 10px;
+$midMargins: 15px;
+$fullMargins: 20px;
