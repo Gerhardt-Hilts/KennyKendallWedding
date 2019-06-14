@@ -9,11 +9,9 @@ export default class AppHeader extends React.Component {
     return(
       <div className={styles.container}>
         <img src={DefaultImage} alt={'banner'} className={styles.image}/>
-        <div className={styles.titleContainer}>
-          <div className={styles.titleCard}>
-            <div className={styles.textContainer}>
-              <div>Congratulations<span className={styles.space}> </span></div><div>Kenny and Kendall</div>
-            </div>
+        <div className={styles.titleCard}>
+          <div className={styles.textContainer}>
+            <div>Congratulations<span className={styles.space}> </span></div><div>Kenny and Kendall</div>
           </div>
         </div>
       </div>
