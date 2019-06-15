@@ -1,0 +1,6 @@
+@import '../../_variables.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}

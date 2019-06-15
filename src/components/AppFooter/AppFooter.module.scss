@@ -1,3 +1,23 @@
-.container {
+@import '../../_variables.scss';
 
+.container {
+  background-color: $highlightColor;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 699px) {
+    margin-top: $mobileMargins;
+  }
+  @media (min-width: 700px) and (max-width: 999px) {
+    margin-top: $midMargins;
+  }
+  @media (min-width: 1000px) {
+    margin-top: $fullMargins;
+  }
+}
+
+.copyrightText {
+  color: $detailColor;
+  text-align: center;
 }
