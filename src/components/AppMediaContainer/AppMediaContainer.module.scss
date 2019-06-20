@@ -3,22 +3,10 @@
 .container {
   background-color: $highlightColor;
   box-shadow: $boxShadow;
-  @media (max-width: 699px) {
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-  @media (min-width: 700px) and (max-width: 999px) {
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-  @media (min-width: 1000px) {
-    width: 300px;
-    height: auto;
-    justify-content: center;
-    margin: 0;
-  }
+  width: auto;
+  height: auto;
+  justify-content: center;
+  margin: 0;
 }
 
 .image {

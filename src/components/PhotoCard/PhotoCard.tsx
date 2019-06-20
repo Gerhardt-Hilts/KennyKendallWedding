@@ -21,7 +21,7 @@ export default class PhotoCard extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     // date placeholder here
-    let date = '1983';
+    let date = '1943-10-28';
 
     this.state = {
       date: date
@@ -35,7 +35,7 @@ export default class PhotoCard extends React.Component<Props, State> {
         <AppMediaContainer>
           <div className={styles.info}>
             <div className={styles.date}>
-              <div>Date: {this.state.date}</div>
+              <div>{this.state.date}</div>
               <div>Date Uploaded</div>
             </div>
             <div className={styles.buttons}>

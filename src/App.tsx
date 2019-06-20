@@ -23,7 +23,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <AppHeader/>
-        <UploadButton/>
+        {/*<UploadButton/>*/}
         <div className={'container'}>
           <SubjectsContainer>
             <AppMediaContainer imageSource={KennyTeel}>
@@ -33,6 +33,7 @@ const App: React.FC = () => {
               <Bio name={'Kendall Teel'} info={'There\'s something about kendall teel'}/>
             </AppMediaContainer>
           </SubjectsContainer>
+          <UploadButton/>
           <AppGrid>
             <PhotoCard/>
             <PhotoCard/>

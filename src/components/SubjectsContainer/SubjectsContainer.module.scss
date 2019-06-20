@@ -3,6 +3,7 @@
 .container {
   display: grid;
   justify-items: center;
+  justify-content: center;
   @media (max-width: 699px) {
     grid-column-gap: $mobileMargins;
     grid-template-columns: auto;
