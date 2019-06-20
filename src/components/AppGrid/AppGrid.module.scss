@@ -2,6 +2,7 @@
 
 .container {
   display: grid;
+  justify-items: center;
   @media (max-width: 699px) {
     margin-top: $mobileMargins;
     grid-row-gap: $mobileMargins;

@@ -3,7 +3,6 @@
 .container {
   background-color: $highlightColor;
   box-shadow: $boxShadow;
-  justify-self: center;
   @media (max-width: 699px) {
     width: auto;
     height: auto;
