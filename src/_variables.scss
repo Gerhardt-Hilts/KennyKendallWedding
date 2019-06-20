@@ -24,6 +24,15 @@
 
 */
 
+/* Sizes */
+// Mobile 0 through 699px;
+$mobile: 699px;
+// Mid 700px through 1000px; app container jumps to 700px
+$mid: 700px;
+// Full 1000px through Infinity; app container jumps to 1000px
+$full: 1000px;
+
+
 /* Margins */
 $mobileMargins: 10px;
 $midMargins: 15px;

@@ -1,5 +1,30 @@
 @import '../../_variables.scss';
 
 .container {
-
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: magenta;
+  position: sticky;
+  float: right;
+  @media (max-width: 699px) {
+    top: $mobileMargins;
+    right: $mobileMargins;
+  }
+  @media (min-width: 700px) and (max-width: 999px) {
+    top: $midMargins;
+    right: calc(
+      calc(#{$midMargins} +
+        calc(
+          calc( 100% - #{$mid} )
+          / 2 )));
+  }
+  @media (min-width: 1000px) {
+    top: $fullMargins;
+    right: calc(
+      calc(#{$fullMargins} +
+        calc(
+          calc( 100% - 1000px )
+          / 2 )));
+  }
 }

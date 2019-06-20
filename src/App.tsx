@@ -16,12 +16,14 @@ import PhotoCard from "./components/PhotoCard/PhotoCard";
 import KennyTeel from './assets/img/kenny_headshot.jpg';
 import KendallTeel from './assets/img/kendall_headshot.jpg';
 import Bio from "./components/Bio/Bio";
+import UploadButton from "./components/UploadButton/UploadButton";
 
 // Initialize App
 const App: React.FC = () => {
   return (
     <div className="App">
       <AppHeader/>
+        <UploadButton/>
         <div className={'container'}>
           <SubjectsContainer>
             <AppMediaContainer imageSource={KennyTeel}>
