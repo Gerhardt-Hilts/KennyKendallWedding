@@ -1,5 +1,23 @@
 @import '../../variables.scss';
 
 .container {
+  @media (max-width: 699px) {
+    padding: $mobileMargins;
+  }
+  @media (min-width: 700px) and (max-width: 999px) {
+    padding: $midMargins;
+  }
+  @media (min-width: 1000px) {
+    padding: $fullMargins;
+  }
+}
 
+.name {
+  color: $detailLightColor;
+  font-size: 1.4rem;
+}
+
+.info {
+  color: $detailColor;
+  font-size: .8rem;
 }

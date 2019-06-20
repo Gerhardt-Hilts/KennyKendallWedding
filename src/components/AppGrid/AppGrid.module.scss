@@ -1,3 +1,18 @@
-.container {
+@import '../../_variables.scss';
 
+.container {
+  display: grid;
+  @media (max-width: 699px) {
+    margin-top: $mobileMargins;
+    grid-row-gap: $mobileMargins;
+  }
+  @media (min-width: 700px) and (max-width: 999px) {
+    margin-top: $midMargins;
+    grid-row-gap: $midMargins;
+  }
+  @media (min-width: 1000px) {
+    margin-top: $fullMargins;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: $fullMargins;
+  }
 }

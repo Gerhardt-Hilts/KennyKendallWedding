@@ -11,7 +11,11 @@ import AppGrid from "./components/AppGrid/AppGrid";
 
 // Styles
 import './App.scss';
+import PhotoCard from "./components/PhotoCard/PhotoCard";
 
+import KennyTeel from './assets/img/kenny_headshot.jpg';
+import KendallTeel from './assets/img/kendall_headshot.jpg';
+import Bio from "./components/Bio/Bio";
 
 // Initialize App
 const App: React.FC = () => {
@@ -20,29 +24,24 @@ const App: React.FC = () => {
       <AppHeader/>
         <div className={'container'}>
           <SubjectsContainer>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
+            <AppMediaContainer imageSource={KennyTeel}>
+              <Bio name={'Kenny Teel'} info={'There\'s something about kenny teel'} />
+            </AppMediaContainer>
+            <AppMediaContainer imageSource={KendallTeel}>
+              <Bio name={'Kendall Teel'} info={'There\'s something about kendall teel'}/>
+            </AppMediaContainer>
           </SubjectsContainer>
           <AppGrid>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
-            <AppMediaContainer/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
+            <PhotoCard/>
           </AppGrid>
         </div>
       <AppFooter/>

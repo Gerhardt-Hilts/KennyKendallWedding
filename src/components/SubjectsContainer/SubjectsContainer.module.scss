@@ -2,5 +2,17 @@
 
 .container {
   display: grid;
-  grid-template-columns: auto auto;
+  @media (max-width: 699px) {
+    grid-column-gap: $mobileMargins;
+    grid-template-columns: auto;
+    grid-row-gap: $mobileMargins;
+  }
+  @media (min-width: 700px) and (max-width: 999px) {
+    grid-column-gap: $midMargins;
+    grid-template-columns: auto auto;
+  }
+  @media (min-width: 1000px) {
+    grid-column-gap: $fullMargins;
+    grid-template-columns: auto auto;
+  }
 }

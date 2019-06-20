@@ -2,6 +2,10 @@
 @import './_variables.scss';
 
 .App {
+  @media (min-width: 700px) {
+    width: 700px;
+    margin: 0 auto;
+  }
   @media (min-width: 1000px) {
     width: 1000px;
     margin: 0 auto;

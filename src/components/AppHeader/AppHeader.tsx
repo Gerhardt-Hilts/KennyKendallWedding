@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DefaultImage from '../../assets/img/Banner.png';
+import DefaultImage from '../../assets/img/banner.jpg';
 
 import styles from './AppHeader.module.scss';
 
