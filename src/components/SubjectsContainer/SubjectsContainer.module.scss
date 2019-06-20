@@ -2,6 +2,7 @@
 
 .container {
   display: grid;
+  justify-items: center;
   @media (max-width: 699px) {
     grid-column-gap: $mobileMargins;
     grid-template-columns: auto;
