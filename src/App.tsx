@@ -17,6 +17,7 @@ import KennyTeel from './assets/img/kenny_headshot.jpg';
 import KendallTeel from './assets/img/kendall_headshot.jpg';
 import Bio from "./components/Bio/Bio";
 import UploadButton from "./components/UploadButton/UploadButton";
+import AppModal from "./components/AppModal/AppModal";
 
 // Initialize App
 const App: React.FC = () => {
@@ -33,6 +34,7 @@ const App: React.FC = () => {
               <Bio name={'Kendall Teel'} info={'There\'s something about kendall teel'}/>
             </AppMediaContainer>
           </SubjectsContainer>
+          <AppModal/>
           <UploadButton/>
           <AppGrid>
             <PhotoCard/>
