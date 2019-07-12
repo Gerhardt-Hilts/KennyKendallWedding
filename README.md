@@ -1,3 +1,5 @@
+A website I'm making for my recently married friends, Kenny and Kendall Teel
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
